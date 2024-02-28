@@ -1,4 +1,4 @@
-import Categoria from "./Categoria";
+import Categoria from "../categoria/Categoria";
 interface Produtos {
   id: number;
   nome: string;

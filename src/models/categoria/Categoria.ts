@@ -1,10 +1,8 @@
-import Produto from "./Produto";
+import Produto from "../produto/Produto";
 
-interface Categoria {
+export default interface Categoria {
     id: number;
     nome: string;
     descricao: string;
     produto?: Produto | null;
   }
-
-  export default Categoria;
